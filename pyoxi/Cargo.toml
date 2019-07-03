@@ -1,0 +1,13 @@
+[package]
+name = "pyapp"
+version = "0.1.0"
+authors = ["tkhm <devtkhm@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+jemallocator-global = { version = "0.3", optional = true }
+pyembed = { path = "pyembed" }
+
+[features]
+default = []
+jemalloc = ["jemallocator-global", "pyembed/jemalloc"]
