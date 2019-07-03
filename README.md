@@ -24,6 +24,9 @@ Working directory is `pyoxi`.
 1. Build: `pyoxidizer build`
 2. Run: `build/build/apps/pyapp/debug/pyapp -m "something"`
 
+You can find executable in here: [Release First Executable · tkhm/pyoxidizer-trial](https://github.com/tkhm/pyoxidizer-trial/releases/tag/v0.0.1)
+
+
 ## Note
 
 - Import `numpy` lib will be failed with the following error:
